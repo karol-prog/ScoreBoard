@@ -8,7 +8,19 @@ let guestCount = 0;
 let homeScore = 0;
 let guestScore = 0;
 
-function addonehome() {
+/* Simplified version after learning if else and parameters in function */
+function addPoints(team, points) {
+  if (team === "home") {
+    homeCount += points;
+    homePoints.textContent = homeCount;
+  } else if (team === "guest") {
+    guestCount += points;
+    guestPoints.textContent = guestCount;
+  }
+}
+
+/* Code before learning about if, else if */
+/* function addonehome() {
   homeCount += 1;
   homePoints.textContent = homeCount;
 }
@@ -35,7 +47,7 @@ function addthreehome() {
 function addthreeguest() {
   guestCount += 3;
   guestPoints.textContent = guestCount;
-}
+} */
 
 function save() {
   homeScore += homeCount;
