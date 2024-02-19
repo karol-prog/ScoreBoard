@@ -1,14 +1,10 @@
-I just try to iplement what I learned in JS course with Scrimba. 
+I just try to implement what I learned in JS course with Scrimba. 
 
 I made a Score Board app for Basketball game.
 
-I used a variables, functions and DOM JS for function this code. 
-I had a little problem with creating a new game and reset the game score, but after googling and asking my friend for a help we got a solution with ES6 JS with template literals to join strings and numbers.
+What I leanrt :
+- if else statements with parameters
+- Template strings
 
-Little update after learning about if statements and function parameters :} I create a shorter version of code with function AddPoints and parameters team and points. Which is icredible how you can simplified the code by using right tools for it.
-
-It was fun and quite challenging, but i make it work. :)
-
-I know that this code or this game can be written easier way, but this is just beginnings.
-
+It was fun and quite challenging, but I make it work. :)
 See you in next mini project.
